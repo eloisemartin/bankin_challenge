@@ -1,0 +1,131 @@
+html {
+    max-width: 780px;
+    min-width: 300px;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    color: #00213C;
+}
+
+html,
+#accueil-button {
+    font-size: 17px;
+}
+
+#top-bar {
+    background-color: #50BAFF;
+}
+
+#top-bar,
+#accueil-button {
+    width: 100%;
+    height: 80px;
+}
+
+
+#main-wrap {
+    position: relative;
+}
+
+#accueil-content {
+    margin: 20px;
+    margin-top: 80px;
+}
+
+#accueil-content img {
+    display: block;
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+h1 {
+    font-size: 23px;
+}
+
+#accueil-button,
+#input_next,
+button {
+    background-color: #6562FD;
+    border: none;
+    color: white;
+}
+
+#accueil-button {
+    position: relative;
+    bottom: 0;
+    color: white;
+    text-align: center;
+}
+
+#accueil-button:hover,
+#input_next:hover,
+#buttons-container button:hover {
+    cursor: pointer;
+    background-color: rgb(70, 68, 170);
+}
+
+.question {
+    font-size: 19px;
+    margin: 20px;
+    margin-top: 80px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#input-earned-money,
+#input-saved-money {
+    width: 100%;
+    padding-bottom: 12px;
+    font-size: 25px;
+    border: none;
+    border-bottom: 2px solid rgb(212, 208, 208);
+}
+
+/* #input_money::after {
+    content: 'Euros';
+} */
+
+form {
+    position: relative;
+    margin: 20px;
+}
+
+#input_next {
+    position: absolute;
+    right: 0px;
+    margin-top: 100px;
+    padding: 10px 30px;
+    font-size: 22px;
+    border: none;
+    border-radius: 15px;
+    font-weight: bold;
+    color: white;
+}
+
+#error {
+    color: rgb(212, 11, 11);
+}
+
+table {
+    display: flex;
+    justify-content: center;
+    border-collapse: collapse;
+}
+
+td,
+th {
+    padding: 15px;
+    border: 1px solid black;
+}
+
+#buttons-container {
+    display: flex;
+    justify-content: center;
+}
+
+#buttons-container button {
+    padding: 20px 30px;
+    margin-right: 15px;
+    border-radius: 15px;
+}
